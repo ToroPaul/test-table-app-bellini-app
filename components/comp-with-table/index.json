@@ -1,0 +1,902 @@
+{
+  "type": "custom-component",
+  "name": "comp-with-table",
+  "nodeName": "comp-with-table",
+  "description": null,
+  "children": [
+    {
+      "name": "div",
+      "nodeName": "div",
+      "elementId": "",
+      "attributes": [],
+      "classList": [
+        "group"
+      ],
+      "conditionalClasses": [],
+      "conditionalStyles": [],
+      "contentType": "text",
+      "displayExpression": "",
+      "events": {},
+      "iterate": {
+        "array": "",
+        "variable": "",
+        "trackByIndex": false
+      },
+      "styles": [],
+      "children": [
+        {
+          "name": "label",
+          "nodeName": "label",
+          "elementId": "",
+          "attributes": [],
+          "classList": [],
+          "conditionalClasses": [],
+          "conditionalStyles": [],
+          "contentType": "text",
+          "displayExpression": "",
+          "events": {},
+          "iterate": {
+            "array": "",
+            "variable": "",
+            "trackByIndex": false
+          },
+          "styles": [],
+          "children": [
+            {
+              "name": "text",
+              "nodeName": "text",
+              "textContent": "Table with no assigned data",
+              "evaluate": false
+            }
+          ],
+          "comments": ""
+        },
+        {
+          "name": "Table",
+          "nodeName": "bln-table",
+          "elementId": "",
+          "attributes": [
+            {
+              "property": "core",
+              "value": ""
+            }
+          ],
+          "classList": [],
+          "conditionalClasses": [],
+          "conditionalStyles": [],
+          "contentType": "text",
+          "displayExpression": "",
+          "events": {},
+          "iterate": {
+            "array": "",
+            "variable": "",
+            "trackByIndex": false
+          },
+          "styles": [
+            {
+              "property": "--bln-table-height",
+              "value": "300px",
+              "enabled": true
+            }
+          ],
+          "children": [],
+          "comments": "",
+          "type": "core-component",
+          "expressions": []
+        }
+      ],
+      "comments": "Table with no assigned data"
+    },
+    {
+      "name": "div",
+      "nodeName": "div",
+      "elementId": "",
+      "attributes": [],
+      "classList": [
+        "group"
+      ],
+      "conditionalClasses": [],
+      "conditionalStyles": [],
+      "contentType": "text",
+      "displayExpression": "",
+      "events": {},
+      "iterate": {
+        "array": "",
+        "variable": "",
+        "trackByIndex": false
+      },
+      "styles": [],
+      "children": [
+        {
+          "name": "label",
+          "nodeName": "label",
+          "elementId": "",
+          "attributes": [],
+          "classList": [],
+          "conditionalClasses": [],
+          "conditionalStyles": [],
+          "contentType": "text",
+          "displayExpression": "",
+          "events": {},
+          "iterate": {
+            "array": "",
+            "variable": "",
+            "trackByIndex": false
+          },
+          "styles": [],
+          "children": [
+            {
+              "name": "text",
+              "nodeName": "text",
+              "textContent": "Table with async function call data expression",
+              "evaluate": false
+            }
+          ],
+          "comments": ""
+        },
+        {
+          "name": "Table",
+          "nodeName": "bln-table",
+          "elementId": "",
+          "attributes": [
+            {
+              "property": "core",
+              "value": ""
+            }
+          ],
+          "classList": [],
+          "conditionalClasses": [],
+          "conditionalStyles": [],
+          "contentType": "text",
+          "displayExpression": "",
+          "events": {},
+          "iterate": {
+            "array": "",
+            "variable": "",
+            "trackByIndex": false
+          },
+          "styles": [
+            {
+              "property": "--bln-table-height",
+              "value": "300px",
+              "enabled": true
+            }
+          ],
+          "children": [],
+          "comments": "",
+          "type": "core-component",
+          "expressions": [
+            {
+              "expression": "$ctrl.asyncFn()",
+              "to": "data"
+            }
+          ]
+        }
+      ],
+      "comments": "Table with async function call data expression"
+    },
+    {
+      "name": "div",
+      "nodeName": "div",
+      "elementId": "",
+      "attributes": [],
+      "classList": [
+        "group"
+      ],
+      "conditionalClasses": [],
+      "conditionalStyles": [],
+      "contentType": "text",
+      "displayExpression": "",
+      "events": {},
+      "iterate": {
+        "array": "",
+        "variable": "",
+        "trackByIndex": false
+      },
+      "styles": [],
+      "children": [
+        {
+          "name": "label",
+          "nodeName": "label",
+          "elementId": "",
+          "attributes": [],
+          "classList": [],
+          "conditionalClasses": [],
+          "conditionalStyles": [],
+          "contentType": "text",
+          "displayExpression": "",
+          "events": {},
+          "iterate": {
+            "array": "",
+            "variable": "",
+            "trackByIndex": false
+          },
+          "styles": [],
+          "children": [
+            {
+              "name": "text",
+              "nodeName": "text",
+              "textContent": "Table with sync function call data expression",
+              "evaluate": false
+            }
+          ],
+          "comments": ""
+        },
+        {
+          "name": "Table",
+          "nodeName": "bln-table",
+          "elementId": "",
+          "attributes": [
+            {
+              "property": "core",
+              "value": ""
+            }
+          ],
+          "classList": [],
+          "conditionalClasses": [],
+          "conditionalStyles": [],
+          "contentType": "text",
+          "displayExpression": "",
+          "events": {},
+          "iterate": {
+            "array": "",
+            "variable": "",
+            "trackByIndex": false
+          },
+          "styles": [
+            {
+              "property": "--bln-table-height",
+              "value": "300px",
+              "enabled": true
+            }
+          ],
+          "children": [],
+          "comments": "",
+          "type": "core-component",
+          "expressions": [
+            {
+              "expression": "$ctrl.syncFn()",
+              "to": "data"
+            }
+          ]
+        }
+      ],
+      "comments": "Table with sync function call data expression"
+    },
+    {
+      "name": "div",
+      "nodeName": "div",
+      "elementId": "",
+      "attributes": [],
+      "classList": [
+        "group"
+      ],
+      "conditionalClasses": [],
+      "conditionalStyles": [],
+      "contentType": "text",
+      "displayExpression": "",
+      "events": {},
+      "iterate": {
+        "array": "",
+        "variable": "",
+        "trackByIndex": false
+      },
+      "styles": [],
+      "children": [
+        {
+          "name": "label",
+          "nodeName": "label",
+          "elementId": "",
+          "attributes": [],
+          "classList": [],
+          "conditionalClasses": [],
+          "conditionalStyles": [],
+          "contentType": "text",
+          "displayExpression": "",
+          "events": {},
+          "iterate": {
+            "array": "",
+            "variable": "",
+            "trackByIndex": false
+          },
+          "styles": [],
+          "children": [
+            {
+              "name": "text",
+              "nodeName": "text",
+              "textContent": "Table with API fetch data expression",
+              "evaluate": false
+            }
+          ],
+          "comments": ""
+        },
+        {
+          "name": "Table",
+          "nodeName": "bln-table",
+          "elementId": "",
+          "attributes": [
+            {
+              "property": "core",
+              "value": ""
+            }
+          ],
+          "classList": [],
+          "conditionalClasses": [],
+          "conditionalStyles": [],
+          "contentType": "text",
+          "displayExpression": "",
+          "events": {},
+          "iterate": {
+            "array": "",
+            "variable": "",
+            "trackByIndex": false
+          },
+          "styles": [
+            {
+              "property": "--bln-table-height",
+              "value": "300px",
+              "enabled": true
+            }
+          ],
+          "children": [],
+          "comments": "",
+          "type": "core-component",
+          "expressions": [
+            {
+              "expression": "$ctrl.pet.findPetsByStatus({status: ['available']}).then(res => res.data)",
+              "to": "data"
+            }
+          ]
+        }
+      ],
+      "comments": "Table with API fetch data expression"
+    },
+    {
+      "name": "div",
+      "nodeName": "div",
+      "elementId": "",
+      "attributes": [],
+      "classList": [
+        "group"
+      ],
+      "conditionalClasses": [],
+      "conditionalStyles": [],
+      "contentType": "text",
+      "displayExpression": "",
+      "events": {},
+      "iterate": {
+        "array": "",
+        "variable": "",
+        "trackByIndex": false
+      },
+      "styles": [],
+      "children": [
+        {
+          "name": "label",
+          "nodeName": "label",
+          "elementId": "",
+          "attributes": [],
+          "classList": [],
+          "conditionalClasses": [],
+          "conditionalStyles": [],
+          "contentType": "text",
+          "displayExpression": "",
+          "events": {},
+          "iterate": {
+            "array": "",
+            "variable": "",
+            "trackByIndex": false
+          },
+          "styles": [],
+          "children": [
+            {
+              "name": "text",
+              "nodeName": "text",
+              "textContent": "Table with Declaration data expression",
+              "evaluate": false
+            }
+          ],
+          "comments": ""
+        },
+        {
+          "name": "Table",
+          "nodeName": "bln-table",
+          "elementId": "",
+          "attributes": [
+            {
+              "property": "core",
+              "value": ""
+            }
+          ],
+          "classList": [],
+          "conditionalClasses": [],
+          "conditionalStyles": [],
+          "contentType": "text",
+          "displayExpression": "",
+          "events": {},
+          "iterate": {
+            "array": "",
+            "variable": "",
+            "trackByIndex": false
+          },
+          "styles": [
+            {
+              "property": "--bln-table-height",
+              "value": "300px",
+              "enabled": true
+            }
+          ],
+          "children": [],
+          "comments": "",
+          "type": "core-component",
+          "expressions": [
+            {
+              "expression": "$ctrl.obj.persons",
+              "to": "data"
+            }
+          ]
+        }
+      ],
+      "comments": "Table with Declaration data expression"
+    },
+    {
+      "name": "div",
+      "nodeName": "div",
+      "elementId": "",
+      "attributes": [],
+      "classList": [
+        "group"
+      ],
+      "conditionalClasses": [],
+      "conditionalStyles": [],
+      "contentType": "text",
+      "displayExpression": "",
+      "events": {},
+      "iterate": {
+        "array": "",
+        "variable": "",
+        "trackByIndex": false
+      },
+      "styles": [],
+      "children": [
+        {
+          "name": "label",
+          "nodeName": "label",
+          "elementId": "",
+          "attributes": [],
+          "classList": [],
+          "conditionalClasses": [],
+          "conditionalStyles": [],
+          "contentType": "text",
+          "displayExpression": "",
+          "events": {},
+          "iterate": {
+            "array": "",
+            "variable": "",
+            "trackByIndex": false
+          },
+          "styles": [],
+          "children": [
+            {
+              "name": "text",
+              "nodeName": "text",
+              "textContent": "Table with Mapped data expression",
+              "evaluate": false
+            }
+          ],
+          "comments": ""
+        },
+        {
+          "name": "Table",
+          "nodeName": "bln-table",
+          "elementId": "",
+          "attributes": [
+            {
+              "property": "core",
+              "value": ""
+            }
+          ],
+          "classList": [],
+          "conditionalClasses": [],
+          "conditionalStyles": [],
+          "contentType": "text",
+          "displayExpression": "",
+          "events": {},
+          "iterate": {
+            "array": "",
+            "variable": "",
+            "trackByIndex": false
+          },
+          "styles": [
+            {
+              "property": "--bln-table-height",
+              "value": "300px",
+              "enabled": true
+            }
+          ],
+          "children": [],
+          "comments": "",
+          "type": "core-component",
+          "expressions": [
+            {
+              "expression": "$ctrl.obj.persons.map(p => ({\n    fullName: p.firstname + ' ' + p.lastname,\n    gender: p.gender\n}))",
+              "to": "data"
+            }
+          ]
+        }
+      ],
+      "comments": "Table with Mapped data expression"
+    },
+    {
+      "name": "div",
+      "nodeName": "div",
+      "elementId": "",
+      "attributes": [],
+      "classList": [
+        "group"
+      ],
+      "conditionalClasses": [],
+      "conditionalStyles": [],
+      "contentType": "text",
+      "displayExpression": "",
+      "events": {},
+      "iterate": {
+        "array": "",
+        "variable": "",
+        "trackByIndex": false
+      },
+      "styles": [],
+      "children": [
+        {
+          "name": "label",
+          "nodeName": "label",
+          "elementId": "",
+          "attributes": [],
+          "classList": [],
+          "conditionalClasses": [],
+          "conditionalStyles": [],
+          "contentType": "text",
+          "displayExpression": "",
+          "events": {},
+          "iterate": {
+            "array": "",
+            "variable": "",
+            "trackByIndex": false
+          },
+          "styles": [],
+          "children": [
+            {
+              "name": "text",
+              "nodeName": "text",
+              "textContent": "Table with button to add item (sync)",
+              "evaluate": false
+            }
+          ],
+          "comments": ""
+        },
+        {
+          "name": "Button",
+          "nodeName": "bln-button",
+          "elementId": "",
+          "attributes": [
+            {
+              "property": "core",
+              "value": ""
+            }
+          ],
+          "classList": [],
+          "conditionalClasses": [],
+          "conditionalStyles": [],
+          "contentType": "text",
+          "displayExpression": "",
+          "events": {},
+          "iterate": {
+            "array": "",
+            "variable": "",
+            "trackByIndex": false
+          },
+          "styles": [],
+          "children": [],
+          "comments": "",
+          "type": "core-component",
+          "expressions": [
+            {
+              "expression": "\"Add Item\"",
+              "to": "label"
+            },
+            {
+              "expression": "\"primary\"",
+              "to": "type"
+            },
+            {
+              "expression": "$ctrl.addItem(false)",
+              "to": "onClick"
+            }
+          ]
+        },
+        {
+          "name": "Table",
+          "nodeName": "bln-table",
+          "elementId": "",
+          "attributes": [
+            {
+              "property": "core",
+              "value": ""
+            }
+          ],
+          "classList": [],
+          "conditionalClasses": [],
+          "conditionalStyles": [],
+          "contentType": "text",
+          "displayExpression": "",
+          "events": {},
+          "iterate": {
+            "array": "",
+            "variable": "",
+            "trackByIndex": false
+          },
+          "styles": [
+            {
+              "property": "--bln-table-height",
+              "value": "300px",
+              "enabled": true
+            }
+          ],
+          "children": [],
+          "comments": "",
+          "type": "core-component",
+          "expressions": [
+            {
+              "expression": "$ctrl.getItems()",
+              "to": "data"
+            }
+          ]
+        }
+      ],
+      "comments": "Table with button to add item (sync)"
+    },
+    {
+      "name": "div",
+      "nodeName": "div",
+      "elementId": "",
+      "attributes": [],
+      "classList": [
+        "group"
+      ],
+      "conditionalClasses": [],
+      "conditionalStyles": [],
+      "contentType": "text",
+      "displayExpression": "",
+      "events": {},
+      "iterate": {
+        "array": "",
+        "variable": "",
+        "trackByIndex": false
+      },
+      "styles": [],
+      "children": [
+        {
+          "name": "label",
+          "nodeName": "label",
+          "elementId": "",
+          "attributes": [],
+          "classList": [],
+          "conditionalClasses": [],
+          "conditionalStyles": [],
+          "contentType": "text",
+          "displayExpression": "",
+          "events": {},
+          "iterate": {
+            "array": "",
+            "variable": "",
+            "trackByIndex": false
+          },
+          "styles": [],
+          "children": [
+            {
+              "name": "text",
+              "nodeName": "text",
+              "textContent": "Table with button to add item (async)",
+              "evaluate": false
+            }
+          ],
+          "comments": ""
+        },
+        {
+          "name": "Button",
+          "nodeName": "bln-button",
+          "elementId": "",
+          "attributes": [
+            {
+              "property": "core",
+              "value": ""
+            }
+          ],
+          "classList": [],
+          "conditionalClasses": [],
+          "conditionalStyles": [],
+          "contentType": "text",
+          "displayExpression": "",
+          "events": {},
+          "iterate": {
+            "array": "",
+            "variable": "",
+            "trackByIndex": false
+          },
+          "styles": [],
+          "children": [],
+          "comments": "",
+          "type": "core-component",
+          "expressions": [
+            {
+              "expression": "\"Add Item\"",
+              "to": "label"
+            },
+            {
+              "expression": "\"primary\"",
+              "to": "type"
+            },
+            {
+              "expression": "$ctrl.addItem(true)",
+              "to": "onClick"
+            }
+          ]
+        },
+        {
+          "name": "Table",
+          "nodeName": "bln-table",
+          "elementId": "",
+          "attributes": [
+            {
+              "property": "core",
+              "value": ""
+            }
+          ],
+          "classList": [],
+          "conditionalClasses": [],
+          "conditionalStyles": [],
+          "contentType": "text",
+          "displayExpression": "",
+          "events": {},
+          "iterate": {
+            "array": "",
+            "variable": "",
+            "trackByIndex": false
+          },
+          "styles": [
+            {
+              "property": "--bln-table-height",
+              "value": "300px",
+              "enabled": true
+            }
+          ],
+          "children": [],
+          "comments": "",
+          "type": "core-component",
+          "expressions": [
+            {
+              "expression": "$ctrl.getItemsAsync()",
+              "to": "data"
+            }
+          ]
+        }
+      ],
+      "comments": "Table with button to add item (async)"
+    }
+  ],
+  "variables": [
+    {
+      "name": "asyncFn",
+      "description": "",
+      "type": "method",
+      "body": "await new Promise(res => setTimeout(res, 2000))\n\nreturn $ctrl.obj.persons",
+      "invokeOnLoad": false,
+      "isAsync": true,
+      "returnType": {
+        "name": "any"
+      },
+      "parameters": [],
+      "watch": []
+    },
+    {
+      "name": "syncFn",
+      "description": "",
+      "type": "method",
+      "body": "return $ctrl.obj.persons",
+      "invokeOnLoad": false,
+      "isAsync": false,
+      "returnType": {
+        "name": "any"
+      },
+      "parameters": [],
+      "watch": []
+    },
+    {
+      "name": "obj",
+      "description": "",
+      "type": "object",
+      "properties": [
+        {
+          "name": "persons",
+          "description": "",
+          "type": "property",
+          "value": "[\n    {\n        firstname: 'Steve',\n        lastname: 'Rogers',\n        gender: 'male'\n    },\n    {\n        firstname: 'Tony',\n        lastname: 'Stark',\n        gender: 'male'\n    },\n    {\n        firstname: 'Peter',\n        lastname: 'Parker',\n        gender: 'male'\n    }\n]"
+        },
+        {
+          "name": "items",
+          "description": "",
+          "type": "property",
+          "value": "[{name: 'item 1'}, {name: 'item 2'}]"
+        },
+        {
+          "name": "itemsAsync",
+          "description": "",
+          "type": "property",
+          "value": "[{name: 'item 1'}, {name: 'item 2'}]"
+        }
+      ]
+    },
+    {
+      "name": "pet",
+      "type": "open-api",
+      "id": "open-api"
+    },
+    {
+      "name": "addItem",
+      "description": "",
+      "type": "method",
+      "body": "if (isAsync) {\n    const promise = new Promise(res => setTimeout(res, 2000));\n     promise.then(() => {\n        const newItem = {name: 'item ' + ($ctrl.obj.itemsAsync.length + 1)}\n        $ctrl.obj.itemsAsync.push(newItem)\n        $ctrl.getItemsAsync()\n    })\n\n    return promise;\n} else {\n    const newItem = {name: 'item ' + ($ctrl.obj.items.length + 1)}\n    $ctrl.obj.items.push(newItem)\n    $ctrl.getItems()\n}",
+      "invokeOnLoad": false,
+      "isAsync": false,
+      "returnType": {
+        "name": "any"
+      },
+      "parameters": [
+        "isAsync"
+      ],
+      "watch": []
+    },
+    {
+      "name": "getItems",
+      "description": "",
+      "type": "method",
+      "body": "return $ctrl.obj.items",
+      "invokeOnLoad": false,
+      "isAsync": false,
+      "returnType": {
+        "name": "any"
+      },
+      "parameters": [],
+      "watch": []
+    },
+    {
+      "name": "getItemsAsync",
+      "description": "",
+      "type": "method",
+      "body": "await new Promise(res => setTimeout(res, 2000))\n\nreturn $ctrl.obj.itemsAsync",
+      "invokeOnLoad": false,
+      "isAsync": true,
+      "returnType": {
+        "name": "any"
+      },
+      "parameters": [],
+      "watch": []
+    }
+  ],
+  "bindings": [],
+  "modules": [],
+  "marketplaceId": null,
+  "formControl": null,
+  "transclude": null,
+  "styles": [],
+  "directories": null,
+  "externalScripts": [],
+  "externalStylesheets": [],
+  "localScripts": [],
+  "localStylesheets": [
+    {
+      "path": "index.css",
+      "order": 1
+    }
+  ]
+}

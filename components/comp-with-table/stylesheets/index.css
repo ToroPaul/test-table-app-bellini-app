@@ -1,0 +1,17 @@
+comp-with-table {
+
+}
+
+comp-with-table .group {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+comp-with-table .group label {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: .5rem;
+}
+
